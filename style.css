@@ -9,18 +9,41 @@ header {
   left: 10%;
 }
 
+body {
+  background-image: url('https://data.1freewallpapers.com/detail/starry-sky-stars-milky-way.jpg');
+  background-size: cover;
+}
+
 .headerTop {
-  height: 200px;
+  height: 250px;
   width: 80%;
-  background-color: black;
+  background-image: url('https://www.freewebheaders.com/wp-content/gallery/computer/amazing-keyboard-information-technology-web-header.jpg');
   background-position: center;
+  background-size: cover;
+  border: 5px solid grey;
+  position: relative;
+
+}
+
+.scritta {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .headerBottom {
   height: 30px;
   width: 80%;
-  background-color: yellow;
+  background-color: lightblue;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+button {
+  background-color: lightblue;
 }
 
 .contenitore {
@@ -35,8 +58,9 @@ header {
 }
 
 .left {
-  background-color: green;
+  background-color: lightgrey;
   height: 300px;
+  text-align: center;
 }
 
 .right {
@@ -44,14 +68,16 @@ header {
 }
 
 .center {
-  background-color: blue;
+  background-color: white;
   height: 300px;
-  width: 60%;
+  width: 55%;
+  margin-left: 5px;
   float: left;
+  text-align: center;
 }
 
 .right .widget {
-  background-color: darkblue;
+  background-color: white;
   height: 150px;
   margin-bottom: 10px;
 }
@@ -68,4 +94,10 @@ main:after {
     left: 10%;
     height: 80px;
     width: 80%;
+    text-align: center;
+  }
+
+  i {
+    width: 30px;
+    height: 30px;
   }
