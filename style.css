@@ -35,7 +35,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-
+/* icona dell'headerTop */
 .far {
   position: absolute;
   top: 20%;
@@ -111,4 +111,5 @@ main:after {
 
   i {
     font-size: 40px;
+    /* margin-left: 40px; SE LO INSERISCO LO CAMBIA ANCHE A QUELLO INIZIALE, PERCHE? */
   }
