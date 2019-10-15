@@ -10,12 +10,12 @@ header {
 }
 
 body {
-  background-image: url('https://data.1freewallpapers.com/detail/starry-sky-stars-milky-way.jpg');
+  background-image: url('https://www.tokkoro.com/picsup/2990388-programming-java-programming-language-syntax-highlighting-minified-knowledge-coding-code-computer-pixels-computer-screen-logic___mixed-wallpapers.jpg');
   background-size: cover;
 }
 
 .headerTop {
-  height: 250px;
+  height: 300px;
   width: 80%;
   background-image: url('https://www.freewebheaders.com/wp-content/gallery/computer/amazing-keyboard-information-technology-web-header.jpg');
   background-position: center;
@@ -29,6 +29,7 @@ body {
 .scritta {
   color: white;
   position: absolute;
+  text-align: center;
   font-size: 30px;
   top: 50%;
   left: 50%;
@@ -37,22 +38,33 @@ body {
 
 /* icona dell'headerTop */
 .far {
+  font-size: 80px;
   position: absolute;
-  top: 20%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .headerBottom {
-  height: 30px;
+  height: 20px;
   width: 80%;
   background-color: lightblue;
   margin-bottom: 10px;
   text-align: center;
 }
 
-button {
-  background-color: lightblue;
+.barra-menu {
+  list-style-type: none;
+  text-align: center;
+}
+
+.barra-menu li {
+  float: left;
+}
+
+.barra-menu li a {
+  text-decoration: none;
+  margin-left: 50px;
 }
 
 .contenitore {
@@ -64,12 +76,13 @@ button {
 .block {
   width: 20%;
   float: left;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .left {
   background-color: lightgrey;
-  border-radius: 20px;
-  height: 300px;
+  height: auto;
   text-align: center;
 }
 
@@ -78,20 +91,21 @@ button {
 }
 
 .center {
-  background-color: white;
-  border-radius: 20px;
-  height: 300px;
-  width: 55%;
-  margin-left: 5px;
+  background-color: lightyellow;
+  height: auto;
+  width: 56%;
+  margin-left: 2%;
   float: left;
   text-align: center;
-}
+} /*  IL MARGINE DI DESTRA??? */
+
 
 .right .widget {
   background-color: white;
   border-radius: 10px;
   height: auto;
   margin-bottom: 10px;
+  padding: 5px;
 }
 
 main:after {
@@ -104,12 +118,20 @@ main:after {
     background-color: grey;
     position: absolute;
     left: 10%;
-    height: 80px;
+    height: auto;
     width: 80%;
     text-align: center;
   }
 
-  i {
+  .copyright {
+    color: lightgrey;
+  }
+
+  .fab {
     font-size: 40px;
-    /* margin-left: 40px; SE LO INSERISCO LO CAMBIA ANCHE A QUELLO INIZIALE, PERCHE? */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: lightgrey;
   }
